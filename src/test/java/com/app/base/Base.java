@@ -33,7 +33,7 @@ public class Base {
 	public static  JavascriptExecutor js;
 	public static Actions actions;
 
-	// **** 1. Launch Browser ****
+	// **** 1. Launch Browser ***
 	public WebDriver launchBrowser(String browserName) {
 		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
